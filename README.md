@@ -19,6 +19,16 @@ In this exercise, a normalized cross-correlation matching was implemented alongs
 ### SPOMF Approach
 This technique, referred to as a symmetric phase-only matched filtering (SPOMF), can be seen as a nonlinear two step process, the first step being the extraction of the phases of the input images and the second the phase-only matched filtering. Because cross-correlation is very sensitive to luminance, one solution is to normalize the images before the comparison, which leads to Normalized Cross-correlation. Furthermore, another solution can be adopted by comparing only the phase information, namely SPOMF. 
 
+### Template matching with SPOMF
+For this exercise a normalized cross-correlation matching, an SSD matching and the SPOMF matching were implemented. Then these algorithms were tested on the images provided. The results can be showed in the above figure. The first line contains the reference image alongside the query image. The second line shows the three different approaches used and the last line presents the location of the query image inside the reference image based on each method.
+The code for the template matching can be found in the function named *template_matching_ssd_ncc_SPOMF* and can be used for gray-scale and color images. The code itself contains lots of explanatory comments.
+
+
+### Image registration with FMI-SPOMF
+In this exercise, image registration with the FMI-SPOMF method was introduced.
+First a distorted version of the “cameraman.tif” image was constructed with arbitrary rotation and scaling only with 30 degrees rotation and 0.7 scaling.
+After that, the sampling of images on a log-polar grid was implemented in a function named *logsample*. The implementation was based on *Log-polar image sampling*.
+
 License
 ----
 
