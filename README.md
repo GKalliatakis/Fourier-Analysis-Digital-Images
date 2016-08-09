@@ -1,5 +1,6 @@
 # Fourier Analysis with Digital Images
 ### Fourier analysis applications for image matching
+![alt tag](https://raw.githubusercontent.com/GKalliatakis/Fourier_Analysis_Digital_Images/master/Fourier_Analysis_with_Digital_Images.png)
 
 ### Introduction
 The goal of this Fourier analysis exercise is to understand the Fourier analysis itself alongside some applications mainly focused on magnitude and phase. Two main exercises will be discussed in this repository, first the template matching using Symmetric Phase Only Matched Filters (SPOMF) and Image Registration with Fourier-Mellin Invariant (FMI) – SPOMF.
