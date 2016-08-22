@@ -1,4 +1,6 @@
 # Fourier Analysis with Digital Images
+<p align="left"> <img src="https://raw.githubusercontent.com/GKalliatakis/Adventures-in-deep-learning/master/logo.png?raw=true" /> </p>
+
 ### Fourier analysis applications for image matching
 ![alt tag](https://raw.githubusercontent.com/GKalliatakis/Fourier_Analysis_Digital_Images/master/Fourier_Analysis_with_Digital_Images.png)
 
